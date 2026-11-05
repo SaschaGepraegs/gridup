@@ -359,7 +359,10 @@ h3 {
     padding:25px;
     min-width:0;
     box-shadow:0 6px 24px rgba(29,37,52,.025);
-    margin-bottom:20px
+    margin-bottom:20px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .grid>.card {
@@ -403,12 +406,12 @@ h3 {
 }
 
 .stat-number {
-    font-size:44px;
+    font-size:60px;
     font-weight:800;
     letter-spacing:-2px;
     color:#252b38;
     line-height:1.2;
-    margin:16px 0 5px
+    margin:10px 0 5px
 }
 
 .stat-unit {
@@ -424,7 +427,8 @@ h3 {
     font-size:12px;
     font-weight:700;
     border:0;
-    margin-top:8px
+    margin-top:auto;
+    align-self: flex-start;
 }
 
 .btn.dark {
@@ -442,7 +446,7 @@ h3 {
     color:#186e67;
     font-weight:700;
     font-size:13px;
-    margin-top:13px
+    margin-top:35px
 }
 
 .clean-list {
@@ -491,11 +495,15 @@ h3 {
     background:#f3ae52
 }
 
+.black {
+    background: #000;
+}
+
 .chipset {
     display:flex;
     flex-wrap:wrap;
     gap:8px;
-    margin:16px 0
+    margin:0 0 16px 0
 }
 
 .chipset span,.chipset a {
@@ -717,7 +725,24 @@ input[type=range] {
     font-size:11px;
     margin-top:35px;
     padding-top:16px;
-    border-top:1px solid var(--line)
+    border-top:1px solid var(--line);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+
+.footer-link {
+    color:#6b7482;
+    text-decoration:none;
+    font-weight:600;
+    white-space:nowrap;
+}
+
+.footer-link:hover {
+    color:#58cbbb;
+    text-decoration:underline;
 }
 
 .sr-only {
@@ -853,4 +878,32 @@ input[type=range] {
         display:none
     }
 
+}
+
+/* IMPRESSUMSSEITE */
+
+.impressum-card {
+    margin-bottom:20px;
+    padding:30px;
+}
+
+.impressum-card h2 {
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.impressum-card p {
+    font-size:14px;
+    line-height:1.7;
+}
+
+/* TEAMFOTO */
+
+.teamfoto {
+    display:block;
+    width:100%;
+    max-width:650px;
+    height:auto;
+    border-radius:15px;
+    margin-top:20px;
 }
