@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="de">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="NOODLE – übersichtliche Lernplattform, HTML/CSS-Demo" name="description"/>
+  <title>
+   Noten · NOODLE
+  </title>
+  <link href="../css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="app">
+   <aside class="sidebar">
+    <a class="brand" href="../index.html">
+     noodle
+     <span>
+      .
+     </span>
+    </a>
+    <div class="brand-caption">
+     Dein Campus. Einfacher.
+    </div>
+    <nav aria-label="Hauptnavigation">
+     <a class="navlink" href="../index.html">
+      <span class="navicon">
+       ▦
+      </span>
+      <span>
+       Dashboard
+      </span>
+     </a>
+     <a class="navlink" href="stundenplan.html">
+      <span class="navicon">
+       ▤
+      </span>
+      <span>
+       Stundenplan
+      </span>
+     </a>
+     <a class="navlink" href="abgaben.html">
+      <span class="navicon">
+       ✓
+      </span>
+      <span>
+       Abgaben
+      </span>
+     </a>
+     <a class="navlink active" href="noten.html">
+      <span class="navicon">
+       ★
+      </span>
+      <span>
+       Noten
+      </span>
+     </a>
+     <a class="navlink" href="module.html">
+      <span class="navicon">
+       ▣
+      </span>
+      <span>
+       Module
+      </span>
+     </a>
+     <a class="navlink" href="klausuren.html">
+      <span class="navicon">
+       ◷
+      </span>
+      <span>
+       Klausuren
+      </span>
+     </a>
+     <a class="navlink" href="dokumente.html">
+      <span class="navicon">
+       ▧
+      </span>
+      <span>
+       Dokumente
+      </span>
+     </a>
+     <a class="navlink" href="krankmeldung.html">
+      <span class="navicon">
+       ✚
+      </span>
+      <span>
+       Krankmeldung
+      </span>
+     </a>
+     <a class="navlink" href="tarife.html">
+      <span class="navicon">
+       ◇
+      </span>
+      <span>
+       NOODLE für Hochschulen
+      </span>
+     </a>
+    </nav>
+    <div class="sidebar-bottom">
+     <div class="avatar">
+      A
+     </div>
+     <div>
+      <strong>
+       Alex
+      </strong>
+      <small>
+       WI · Kurs A 2026
+      </small>
+     </div>
+    </div>
+   </aside>
+   <div class="mainwrap">
+    <header class="topbar">
+     <div class="mobile-brand">
+      noodle
+      <span>
+       .
+      </span>
+     </div>
+     <div class="search-area">
+      <label class="sr-only" for="global-search">
+       Zentrale Suche
+      </label>
+      <input aria-describedby="search-help" id="global-search" placeholder="Suche nach Modulen, Dokumenten, Aufgaben …" type="search"/>
+      <a class="search-link" href="dokumente.html#suchhilfe">
+       Suche &amp; Filter
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+     </div>
+     <div class="top-actions">
+      <span class="term">
+       Wintersemester 2026/27 · Demo
+      </span>
+      <a class="notification" href="abgaben.html" title="Wichtige Abgaben">
+       ●
+       <span>
+        2
+       </span>
+      </a>
+     </div>
+    </header>
+    <main class="content">
+     <div class="page-heading">
+      <div>
+       <p class="eyebrow">
+        MEIN CAMPUS / NOTEN
+       </p>
+       <h1>
+        Noten
+       </h1>
+       <p class="muted">
+        Semesterweise Leistungen, Notenschnitt und ECTS-Fortschritt.
+       </p>
+      </div>
+     </div>
+     <div class="grid three">
+      <article class="card lavender">
+       <h2>
+        Notenschnitt
+       </h2>
+       <div class="stat-number">
+        2,1
+       </div>
+       <p>
+        Beispielwert, nicht live berechnet
+       </p>
+      </article>
+      <article class="card mint">
+       <h2>
+        Erreichte ECTS
+       </h2>
+       <div class="stat-number">
+        48
+        <span class="stat-unit">
+         / 210
+        </span>
+       </div>
+       <p>
+        Beispielwert
+       </p>
+      </article>
+      <article class="card peach">
+       <h2>
+        Studiengang
+       </h2>
+       <h3>
+        Wirtschaftsinformatik
+       </h3>
+       <p>
+        Kurs A 2026
+       </p>
+      </article>
+     </div>
+     <article class="card">
+      <h2>
+       Meine Noten nach Semestern
+      </h2>
+      <div class="tablewrap">
+       <table>
+        <thead>
+         <tr>
+          <th>
+           Semester
+          </th>
+          <th>
+           Modul
+          </th>
+          <th>
+           Note
+          </th>
+          <th>
+           ECTS
+          </th>
+          <th>
+           Status
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           1
+          </td>
+          <td>
+           Grundlagen der Informatik
+          </td>
+          <td>
+           2,0
+          </td>
+          <td>
+           5
+          </td>
+          <td>
+           <span class="pill success">
+            Bestanden
+           </span>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           1
+          </td>
+          <td>
+           Einführung BWL
+          </td>
+          <td>
+           2,3
+          </td>
+          <td>
+           5
+          </td>
+          <td>
+           <span class="pill success">
+            Bestanden
+           </span>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           1
+          </td>
+          <td>
+           Mathematik I
+          </td>
+          <td>
+           1,7
+          </td>
+          <td>
+           5
+          </td>
+          <td>
+           <span class="pill success">
+            Bestanden
+           </span>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2
+          </td>
+          <td>
+           Programmierung
+          </td>
+          <td>
+           2,3
+          </td>
+          <td>
+           5
+          </td>
+          <td>
+           <span class="pill success">
+            Bestanden
+           </span>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2
+          </td>
+          <td>
+           Wirtschaftsinformatik
+          </td>
+          <td>
+           2,0
+          </td>
+          <td>
+           5
+          </td>
+          <td>
+           <span class="pill success">
+            Bestanden
+           </span>
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </div>
+      <p class="demo-note">
+       Die angezeigten Beispielnoten ergeben nicht automatisch den dargestellten ECTS- oder Durchschnittswert. Werte sind reine Demo-Daten.
+      </p>
+     </article>
+     <article class="card pale">
+      <h2>
+       Neue Note eintragen (Designvorschau)
+      </h2>
+      <form action="#noten-hinweis" class="demo-form">
+       <div class="form-grid">
+        <label>
+         Semester
+         <select>
+          <option>
+           1. Semester
+          </option>
+          <option>
+           2. Semester
+          </option>
+          <option>
+           3. Semester
+          </option>
+          <option>
+           4. Semester
+          </option>
+          <option>
+           5. Semester
+          </option>
+          <option>
+           6. Semester
+          </option>
+         </select>
+        </label>
+        <label>
+         Modul
+         <input placeholder="Modulname"/>
+        </label>
+        <label>
+         Note
+         <input max="5" min="1" placeholder="z. B. 2.3" step="0.1" type="number"/>
+        </label>
+        <label>
+         ECTS
+         <input max="30" min="0" placeholder="z. B. 5" type="number"/>
+        </label>
+       </div>
+       <button class="btn dark">
+        Eintrag vorbereiten (Demo)
+       </button>
+      </form>
+      <p class="demo-note" id="noten-hinweis">
+       Automatische Durchschnittsberechnung und Speicherung benötigen zusätzliche Programmierung.
+      </p>
+     </article>
+     <footer class="footer">
+      NOODLE · HTML/CSS-Demoprojekt · Alle Namen, Daten und Statuswerte sind Beispiele. Keine echte Anmeldung, Speicherung oder Dateiübertragung.
+     </footer>
+    </main>
+   </div>
+  </div>
+ </body>
+</html>

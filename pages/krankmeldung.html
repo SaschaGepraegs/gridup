@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="NOODLE – übersichtliche Lernplattform, HTML/CSS-Demo" name="description"/>
+  <title>
+   Krankmeldung · NOODLE
+  </title>
+  <link href="../css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="app">
+   <aside class="sidebar">
+    <a class="brand" href="../index.html">
+     noodle
+     <span>
+      .
+     </span>
+    </a>
+    <div class="brand-caption">
+     Dein Campus. Einfacher.
+    </div>
+    <nav aria-label="Hauptnavigation">
+     <a class="navlink" href="../index.html">
+      <span class="navicon">
+       ▦
+      </span>
+      <span>
+       Dashboard
+      </span>
+     </a>
+     <a class="navlink" href="stundenplan.html">
+      <span class="navicon">
+       ▤
+      </span>
+      <span>
+       Stundenplan
+      </span>
+     </a>
+     <a class="navlink" href="abgaben.html">
+      <span class="navicon">
+       ✓
+      </span>
+      <span>
+       Abgaben
+      </span>
+     </a>
+     <a class="navlink" href="noten.html">
+      <span class="navicon">
+       ★
+      </span>
+      <span>
+       Noten
+      </span>
+     </a>
+     <a class="navlink" href="module.html">
+      <span class="navicon">
+       ▣
+      </span>
+      <span>
+       Module
+      </span>
+     </a>
+     <a class="navlink" href="klausuren.html">
+      <span class="navicon">
+       ◷
+      </span>
+      <span>
+       Klausuren
+      </span>
+     </a>
+     <a class="navlink" href="dokumente.html">
+      <span class="navicon">
+       ▧
+      </span>
+      <span>
+       Dokumente
+      </span>
+     </a>
+     <a class="navlink active" href="krankmeldung.html">
+      <span class="navicon">
+       ✚
+      </span>
+      <span>
+       Krankmeldung
+      </span>
+     </a>
+     <a class="navlink" href="tarife.html">
+      <span class="navicon">
+       ◇
+      </span>
+      <span>
+       NOODLE für Hochschulen
+      </span>
+     </a>
+    </nav>
+    <div class="sidebar-bottom">
+     <div class="avatar">
+      A
+     </div>
+     <div>
+      <strong>
+       Alex
+      </strong>
+      <small>
+       WI · Kurs A 2026
+      </small>
+     </div>
+    </div>
+   </aside>
+   <div class="mainwrap">
+    <header class="topbar">
+     <div class="mobile-brand">
+      noodle
+      <span>
+       .
+      </span>
+     </div>
+     <div class="search-area">
+      <label class="sr-only" for="global-search">
+       Zentrale Suche
+      </label>
+      <input aria-describedby="search-help" id="global-search" placeholder="Suche nach Modulen, Dokumenten, Aufgaben …" type="search"/>
+      <a class="search-link" href="dokumente.html#suchhilfe">
+       Suche &amp; Filter
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+     </div>
+     <div class="top-actions">
+      <span class="term">
+       Wintersemester 2026/27 · Demo
+      </span>
+      <a class="notification" href="abgaben.html" title="Wichtige Abgaben">
+       ●
+       <span>
+        2
+       </span>
+      </a>
+     </div>
+    </header>
+    <main class="content">
+     <div class="page-heading">
+      <div>
+       <p class="eyebrow">
+        MEIN CAMPUS / KRANKMELDUNG
+       </p>
+       <h1>
+        Krankmeldung
+       </h1>
+       <p class="muted">
+        Einfaches Formular statt umständlicher E-Mails und unklarer Abläufe.
+       </p>
+      </div>
+     </div>
+     <article class="card">
+      <h2>
+       Krankmeldung erfassen
+      </h2>
+      <form action="#krank-hinweis" class="demo-form">
+       <div class="form-grid">
+        <label>
+         Von
+         <input required="" type="date"/>
+        </label>
+        <label>
+         Bis
+         <input required="" type="date"/>
+        </label>
+        <label>
+         Betroffenes Modul
+         <select>
+          <option>
+           Alle Veranstaltungen
+          </option>
+          <option>
+           Grundlagen der Informatik
+          </option>
+          <option>
+           Einführung BWL
+          </option>
+          <option>
+           Mathematik I
+          </option>
+          <option>
+           Programmierung
+          </option>
+          <option>
+           Präsentationstechniken
+          </option>
+          <option>
+           Wirtschaftsinformatik
+          </option>
+         </select>
+        </label>
+        <label>
+         Nachweis auswählen
+         <input accept=".pdf,.png,.jpg,.jpeg" type="file"/>
+        </label>
+       </div>
+       <label>
+        Optionale Mitteilung
+        <textarea placeholder="Kurze Nachricht an das Studiensekretariat …" rows="4"></textarea>
+       </label>
+       <button class="btn dark" type="submit">
+        Krankmeldung vorbereiten (Demo)
+       </button>
+      </form>
+      <p class="demo-note" id="krank-hinweis">
+       Es wird nichts übermittelt. Gesundheitsdaten werden in dieser Demo nicht gespeichert.
+      </p>
+     </article>
+     <article class="card mint">
+      <h2>
+       Status meiner Meldungen
+      </h2>
+      <div class="tablewrap">
+       <table>
+        <thead>
+         <tr>
+          <th>
+           Zeitraum
+          </th>
+          <th>
+           Status
+          </th>
+          <th>
+           Hinweis
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           04.–05.11.2026
+          </td>
+          <td>
+           <span class="pill warning">
+            Beispiel: Eingereicht
+           </span>
+          </td>
+          <td>
+           Wartet auf Prüfung
+          </td>
+         </tr>
+         <tr>
+          <td>
+           15.10.2026
+          </td>
+          <td>
+           <span class="pill success">
+            Beispiel: Bestätigt
+           </span>
+          </td>
+          <td>
+           Bearbeitet
+          </td>
+         </tr>
+        </tbody>
+       </table>
+      </div>
+     </article>
+     <footer class="footer">
+      NOODLE · HTML/CSS-Demoprojekt · Alle Namen, Daten und Statuswerte sind Beispiele. Keine echte Anmeldung, Speicherung oder Dateiübertragung.
+     </footer>
+    </main>
+   </div>
+  </div>
+ </body>
+</html>

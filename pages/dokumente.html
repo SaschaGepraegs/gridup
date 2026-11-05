@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="de">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="NOODLE – übersichtliche Lernplattform, HTML/CSS-Demo" name="description"/>
+  <title>
+   Dokumente · NOODLE
+  </title>
+  <link href="../css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="app">
+   <aside class="sidebar">
+    <a class="brand" href="../index.html">
+     noodle
+     <span>
+      .
+     </span>
+    </a>
+    <div class="brand-caption">
+     Dein Campus. Einfacher.
+    </div>
+    <nav aria-label="Hauptnavigation">
+     <a class="navlink" href="../index.html">
+      <span class="navicon">
+       ▦
+      </span>
+      <span>
+       Dashboard
+      </span>
+     </a>
+     <a class="navlink" href="stundenplan.html">
+      <span class="navicon">
+       ▤
+      </span>
+      <span>
+       Stundenplan
+      </span>
+     </a>
+     <a class="navlink" href="abgaben.html">
+      <span class="navicon">
+       ✓
+      </span>
+      <span>
+       Abgaben
+      </span>
+     </a>
+     <a class="navlink" href="noten.html">
+      <span class="navicon">
+       ★
+      </span>
+      <span>
+       Noten
+      </span>
+     </a>
+     <a class="navlink" href="module.html">
+      <span class="navicon">
+       ▣
+      </span>
+      <span>
+       Module
+      </span>
+     </a>
+     <a class="navlink" href="klausuren.html">
+      <span class="navicon">
+       ◷
+      </span>
+      <span>
+       Klausuren
+      </span>
+     </a>
+     <a class="navlink active" href="dokumente.html">
+      <span class="navicon">
+       ▧
+      </span>
+      <span>
+       Dokumente
+      </span>
+     </a>
+     <a class="navlink" href="krankmeldung.html">
+      <span class="navicon">
+       ✚
+      </span>
+      <span>
+       Krankmeldung
+      </span>
+     </a>
+     <a class="navlink" href="tarife.html">
+      <span class="navicon">
+       ◇
+      </span>
+      <span>
+       NOODLE für Hochschulen
+      </span>
+     </a>
+    </nav>
+    <div class="sidebar-bottom">
+     <div class="avatar">
+      A
+     </div>
+     <div>
+      <strong>
+       Alex
+      </strong>
+      <small>
+       WI · Kurs A 2026
+      </small>
+     </div>
+    </div>
+   </aside>
+   <div class="mainwrap">
+    <header class="topbar">
+     <div class="mobile-brand">
+      noodle
+      <span>
+       .
+      </span>
+     </div>
+     <div class="search-area">
+      <label class="sr-only" for="global-search">
+       Zentrale Suche
+      </label>
+      <input aria-describedby="search-help" id="global-search" placeholder="Suche nach Modulen, Dokumenten, Aufgaben …" type="search"/>
+      <a class="search-link" href="dokumente.html#suchhilfe">
+       Suche &amp; Filter
+       <span aria-hidden="true">
+        ↗
+       </span>
+      </a>
+     </div>
+     <div class="top-actions">
+      <span class="term">
+       Wintersemester 2026/27 · Demo
+      </span>
+      <a class="notification" href="abgaben.html" title="Wichtige Abgaben">
+       ●
+       <span>
+        2
+       </span>
+      </a>
+     </div>
+    </header>
+    <main class="content">
+     <div class="page-heading">
+      <div>
+       <p class="eyebrow">
+        MEIN CAMPUS / DOKUMENTE
+       </p>
+       <h1>
+        Dokumente
+       </h1>
+       <p class="muted">
+        Eine zentrale Materialsammlung – ohne fünf verschiedene Kursordner.
+       </p>
+      </div>
+     </div>
+     <section class="card" id="suchhilfe">
+      <h2>
+       Zentrale Dokumentensuche
+      </h2>
+      <p>
+       In der späteren Version kannst du alle Module, Dateinamen und Aufgaben an einer Stelle durchsuchen.
+      </p>
+      <form action="#suchhilfe" class="demo-form">
+       <label for="docsearch">
+        Suchbegriff
+        <input id="docsearch" placeholder="z. B. Investitionsrechnung" type="search"/>
+       </label>
+       <button class="btn dark" type="submit">
+        Suche (Design-Demo)
+       </button>
+      </form>
+      <p class="demo-note">
+       Die Suche ist eine visuelle Vorlage; eine echte Volltextsuche ist mit HTML und CSS allein nicht möglich.
+      </p>
+      <div class="chipset">
+       <a href="#alle-dateien">
+        Alle Dateien
+       </a>
+       <a href="#alle-dateien">
+        Skripte
+       </a>
+       <a href="#alle-dateien">
+        Übungsblätter
+       </a>
+       <a href="#alle-dateien">
+        Vorlagen
+       </a>
+      </div>
+     </section>
+     <section class="card" id="alle-dateien">
+      <h2>
+       Alle Materialien
+      </h2>
+      <div class="document-row">
+       <span class="file-icon">
+        PDF
+       </span>
+       <div class="document-meta">
+        <strong>
+         IT – Vorlesung 04.pdf
+        </strong>
+        <small>
+         Grundlagen der Informatik · Skript
+        </small>
+       </div>
+       <span class="pill success">
+        Neu
+       </span>
+       <span class="demo-label">
+        Demo
+       </span>
+      </div>
+      <div class="document-row">
+       <span class="file-icon">
+        PDF
+       </span>
+       <div class="document-meta">
+        <strong>
+         Übungsblatt Investitionsrechnung.pdf
+        </strong>
+        <small>
+         Einführung BWL · Übung
+        </small>
+       </div>
+       <span class="pill success">
+        Neu
+       </span>
+       <span class="demo-label">
+        Demo
+       </span>
+      </div>
+      <div class="document-row">
+       <span class="file-icon">
+        PDF
+       </span>
+       <div class="document-meta">
+        <strong>
+         Lineare Algebra – Übersicht.pdf
+        </strong>
+        <small>
+         Mathematik I · Skript
+        </small>
+       </div>
+       <span class="demo-label">
+        Demo
+       </span>
+      </div>
+      <div class="document-row">
+       <span class="file-icon">
+        PDF
+       </span>
+       <div class="document-meta">
+        <strong>
+         Präsentation – Leitfaden.pdf
+        </strong>
+        <small>
+         Präsentationstechniken · Vorlage
+        </small>
+       </div>
+       <span class="demo-label">
+        Demo
+       </span>
+      </div>
+      <div class="document-row">
+       <span class="file-icon">
+        PDF
+       </span>
+       <div class="document-meta">
+        <strong>
+         Webprojekt – Aufgabenstellung.pdf
+        </strong>
+        <small>
+         Programmierung · Aufgabe
+        </small>
+       </div>
+       <span class="demo-label">
+        Demo
+       </span>
+      </div>
+      <p class="demo-note">
+       Dateinamen sind Beispiele. Da keine Original-PDFs bereitgestellt wurden, sind keine echten Downloads hinterlegt.
+      </p>
+     </section>
+     <article class="card mint">
+      <h2>
+       Dateien abgeben – so könnte es aussehen
+      </h2>
+      <form action="#upload-hinweis" class="demo-form">
+       <div class="form-grid">
+        <label>
+         Abgabe auswählen
+         <select>
+          <option>
+           Präsentation Wirtschaftsinformatik
+          </option>
+          <option>
+           Präsentationstechniken
+          </option>
+          <option>
+           Projektentwurf
+          </option>
+         </select>
+        </label>
+        <label>
+         Datei auswählen
+         <input accept=".pdf,.doc,.docx,.ppt,.pptx" type="file"/>
+        </label>
+       </div>
+       <button class="btn dark">
+        Abgabe vorbereiten (Demo)
+       </button>
+      </form>
+      <p class="demo-note" id="upload-hinweis">
+       Die Dateiauswahl funktioniert lokal. Es erfolgt kein Upload an einen Server.
+      </p>
+     </article>
+     <footer class="footer">
+      NOODLE · HTML/CSS-Demoprojekt · Alle Namen, Daten und Statuswerte sind Beispiele. Keine echte Anmeldung, Speicherung oder Dateiübertragung.
+     </footer>
+    </main>
+   </div>
+  </div>
+ </body>
+</html>
