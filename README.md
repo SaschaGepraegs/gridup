@@ -2,7 +2,7 @@ Bei diesem Projekt handelt es sich um unser Website-Projekt.
 
 
 
-Ordnerstruktur Stand 05.11.2026:
+Ordnerstruktur Stand 12.11.2026:
 
 
 
