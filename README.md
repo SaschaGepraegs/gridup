@@ -1,3 +1,5 @@
+NIEMAND VERWENDET JAVASCRIPT!!!!!
+
 Bei diesem Projekt handelt es sich um unser Website-Projekt.
 
 

@@ -24,47 +24,47 @@
             <nav aria-label="Hauptnavigation">
 
                 <a class="navlink" href="../index.html">
-                    <span class="navicon">▦</span>
+                    <span class="navicon" aria-hidden="true">▦</span>
                     <span>Dashboard</span>
                 </a>
 
                 <a class="navlink" href="stundenplan.html">
-                    <span class="navicon">▤</span>
+                    <span class="navicon" aria-hidden="true">▤</span>
                     <span>Stundenplan</span>
                 </a>
 
                 <a class="navlink" href="abgaben.html">
-                    <span class="navicon">✓</span>
+                    <span class="navicon" aria-hidden="true">✓</span>
                     <span>Abgaben</span>
                 </a>
 
                 <a class="navlink" href="noten.html">
-                    <span class="navicon">★</span>
+                    <span class="navicon" aria-hidden="true">★</span>
                     <span>Noten</span>
                 </a>
 
                 <a class="navlink" href="module.html">
-                    <span class="navicon">▣</span>
+                    <span class="navicon" aria-hidden="true">▣</span>
                     <span>Module</span>
                 </a>
 
                 <a class="navlink" href="klausuren.html">
-                    <span class="navicon">◷</span>
+                    <span class="navicon" aria-hidden="true">◷</span>
                     <span>Klausuren</span>
                 </a>
 
                 <a class="navlink" href="dokumente.html">
-                    <span class="navicon">▧</span>
+                    <span class="navicon" aria-hidden="true">▧</span>
                     <span>Dokumente</span>
                 </a>
 
                 <a class="navlink" href="krankmeldung.html">
-                    <span class="navicon">✚</span>
+                    <span class="navicon" aria-hidden="true">✚</span>
                     <span>Krankmeldung</span>
                 </a>
 
                 <a class="navlink" href="tarife.html">
-                    <span class="navicon">◇</span>
+                    <span class="navicon" aria-hidden="true">◇</span>
                     <span>NOODLE für Hochschulen</span>
                 </a>
 
@@ -96,7 +96,12 @@
 
                 <div class="top-actions">
                     <span class="term">Wintersemester 2026/27</span>
-                    <a class="notification" href="abgaben.html" title="Wichtige Abgaben">●span>2</span>
+                    <a class="notification" href="abgaben.html" title="Wichtige Abgaben" aria-label="Wichtige Abgaben, 2 Benachrichtigungen">
+                        <svg class="notification-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9" />
+                            <path d="M10 21h4" />
+                        </svg>
+                        <span>2</span>
                     </a>
                 </div>
             </header>

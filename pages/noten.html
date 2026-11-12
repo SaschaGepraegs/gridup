@@ -20,7 +20,7 @@
     </div>
     <nav aria-label="Hauptnavigation">
      <a class="navlink" href="../index.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ▦
       </span>
       <span>
@@ -28,7 +28,7 @@
       </span>
      </a>
      <a class="navlink" href="stundenplan.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ▤
       </span>
       <span>
@@ -36,7 +36,7 @@
       </span>
      </a>
      <a class="navlink" href="abgaben.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ✓
       </span>
       <span>
@@ -44,7 +44,7 @@
       </span>
      </a>
      <a class="navlink active" href="noten.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ★
       </span>
       <span>
@@ -52,7 +52,7 @@
       </span>
      </a>
      <a class="navlink" href="module.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ▣
       </span>
       <span>
@@ -60,7 +60,7 @@
       </span>
      </a>
      <a class="navlink" href="klausuren.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ◷
       </span>
       <span>
@@ -68,7 +68,7 @@
       </span>
      </a>
      <a class="navlink" href="dokumente.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ▧
       </span>
       <span>
@@ -76,7 +76,7 @@
       </span>
      </a>
      <a class="navlink" href="krankmeldung.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ✚
       </span>
       <span>
@@ -84,7 +84,7 @@
       </span>
      </a>
      <a class="navlink" href="tarife.html">
-      <span class="navicon">
+      <span class="navicon" aria-hidden="true">
        ◇
       </span>
       <span>
@@ -130,8 +130,11 @@
       <span class="term">
        Wintersemester 2026/27 · Demo
       </span>
-      <a class="notification" href="abgaben.html" title="Wichtige Abgaben">
-       ●
+      <a class="notification" href="abgaben.html" title="Wichtige Abgaben" aria-label="Wichtige Abgaben, 2 Benachrichtigungen">
+       <svg class="notification-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9" />
+        <path d="M10 21h4" />
+       </svg>
        <span>
         2
        </span>
